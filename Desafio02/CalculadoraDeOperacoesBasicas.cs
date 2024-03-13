@@ -6,35 +6,33 @@ using System.Threading.Tasks;
 
 namespace Desafio02
 {
-    internal class CalculadoraDeOperacoesBasicas
+    public class CalculadoraDeOperacoesBasicas(double valueOne, double valueTwo)
     {
-        private double valueOne { get; set; } = 0;
-        private double valueTwo { get; set; } = 0;
-
-        public CalculadoraDeOperacoesBasicas(double valueOne, double valueTwo)
-        {
-            this.valueOne = valueOne;
-            this.valueTwo = valueTwo;
-        }
+        private double ValueOne { get; set; } = valueOne;
+        private double ValueTwo { get; set; } = valueTwo;
 
         public double Somar()
         {
-            return valueOne + valueTwo;
+            return ValueOne + ValueTwo;
         }
 
         public double Subtrair()
         {
-            return valueOne - valueTwo;
+            return ValueOne - ValueTwo;
         }
 
         public double Multiplicar()
         {
-            return valueOne * valueTwo;
+            return ValueOne * ValueTwo;
         }
 
         public double Dividir()
         {
-            return valueOne / valueTwo;
+            if(ValueTwo == 0)
+            {
+                return 0;
+            }
+            return ValueOne / ValueTwo;
         }
     }
    

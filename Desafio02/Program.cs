@@ -12,7 +12,7 @@
 using Desafio02;
 using Helpers;
 
-TituloDoDesafio tituloDoDesafio = new TituloDoDesafio("Calculadora de Operações Básicas");
+TituloDoDesafio tituloDoDesafio = new("Calculadora de Operações Básicas");
 tituloDoDesafio.MostrarTituloDoDesafio();
 
 Console.Write("Digite o primeiro valor: ");
@@ -20,7 +20,7 @@ double valueOne = Convert.ToDouble(Console.ReadLine());
 Console.Write("Digite o segundo valor: ");
 double valueTwo = Convert.ToDouble(Console.ReadLine());
 
-CalculadoraDeOperacoesBasicas calculadora = new CalculadoraDeOperacoesBasicas(valueOne, valueTwo);
+CalculadoraDeOperacoesBasicas calculadora = new(valueOne, valueTwo);
 
 Console.WriteLine("\nCálculos: \n");
 
