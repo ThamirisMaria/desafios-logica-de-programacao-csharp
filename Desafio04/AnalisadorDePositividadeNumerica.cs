@@ -6,18 +6,13 @@ using System.Threading.Tasks;
 
 namespace Desafio04
 {
-    internal class AnalisadorDePositividadeNumerica
+    internal class AnalisadorDePositividadeNumerica(double number)
     {
-        double number { get; set; } = 0;
+        double Number { get; set; } = number;
 
-        public AnalisadorDePositividadeNumerica(double number)
+        public string GetPositivoOuNegativo()
         {
-            this.number = number;
-        }
-
-        public string getPositivoOuNegativo()
-        {
-            if (analisarPositividade())
+            if (AnalisarPositividade())
             {
                 return "POSITIVO";
             }
@@ -25,13 +20,13 @@ namespace Desafio04
             return "NEGATIVO";
         }
 
-        public bool analisarPositividade()
+        public bool AnalisarPositividade()
         {
-            if(number == 0)
+            if(Number == 0)
             {
                 throw new ArgumentException("Zero não pode ser positivo ou negativo, informe um número válido!");
             }
-            return number > 0;
+            return Number > 0;
         }
     }
 }

@@ -6,19 +6,19 @@
 using Desafio04;
 using Helpers;
 
-TituloDoDesafio tituloDoDesafio = new TituloDoDesafio("Calculadora de Operações Básicas");
+TituloDoDesafio tituloDoDesafio = new("Calculadora de Operações Básicas");
 tituloDoDesafio.MostrarTituloDoDesafio();
 
 
 Console.Write("Digite um número: ");
 double number = Convert.ToDouble(Console.ReadLine());
 
-AnalisadorDePositividadeNumerica analisador = new AnalisadorDePositividadeNumerica(number);
+AnalisadorDePositividadeNumerica analisador = new(number);
 
 try
 {
     string positivoOuNegativo;
-    positivoOuNegativo = analisador.getPositivoOuNegativo();
+    positivoOuNegativo = analisador.GetPositivoOuNegativo();
     Console.WriteLine($"\nO número {number} é {positivoOuNegativo}");
 }
 catch(ArgumentException e)
