@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desafio04
 {
-    internal class AnalisadorDePositividadeNumerica(double number)
+    public class AnalisadorDePositividadeNumerica(double number)
     {
         double Number { get; set; } = number;
 
