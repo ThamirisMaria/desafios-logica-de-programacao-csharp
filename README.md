@@ -39,7 +39,7 @@ Faça um programa que receberá a hora inicial e a hora final de um jogo. A segu
 
 Repita o Desafio 2, agora permitindo ao usuário que ele escolha qual cálculo ele deseja executar.
 
-# Desafio 7
+# [Desafio 7](Desafio07)
 
 Elabore um programa que receba três valores como entrada, e mostre todos na saída em ordem crescente.
 
