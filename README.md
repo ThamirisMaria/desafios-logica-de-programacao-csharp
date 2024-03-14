@@ -61,7 +61,7 @@ Desenvolva um método estático de saque de caixa eletrônico.
 > As notas consideradas são de (R$) 200, 100, 50, 20, 10, 5 e 2.
 3. A relação de cédulas deve ser impressa.
 
-# Desafio 11
+# [Desafio 11[(Desafio11)
 
 Crie um método estático que recebe como argumento um valor em segundos, calcula e retorna ao invocador uma `string` formatada HH:MM:SS (horas:minutos:segundos).
 
@@ -73,7 +73,7 @@ Dado um array de nomes, faça um programa que tenha como entrada uma expressão 
 
 Dado um array de números, mostre quantos valores são pares, quantos são ímpares, quantos são positivos e quantos são negativos.
 
-# Desafio 14
+# [Desafio 14](Desafio14)
 
 Dado um array de números, faça um programa que tenha um menu de opções para que o usuário possa:
 - Adicionar um novo número no final do array
