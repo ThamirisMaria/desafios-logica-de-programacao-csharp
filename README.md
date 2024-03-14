@@ -35,7 +35,7 @@ Crie um programa  que analise se o valor de uma variável é positivo ou negativ
 Faça um programa que receberá a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro (com duração máxima de 24 horas).
 > Nota: Um jogo tem somente horas "em ponto" - Não é necessário trabalhar com minutos e segundos.
 
-# Desafio 6
+# [Desafio 6](Desafio06)
 
 Repita o Desafio 2, agora permitindo ao usuário que ele escolha qual cálculo ele deseja executar.
 
@@ -43,7 +43,7 @@ Repita o Desafio 2, agora permitindo ao usuário que ele escolha qual cálculo e
 
 Elabore um programa que receba três valores como entrada, e mostre todos na saída em ordem crescente.
 
-# Desafio 8
+# [Desafio 8](Desafio08)
 
 Realize as seguintes sequências de impressões:
 1. Utilize `while` para imprimir os valores de 1 até 25.
@@ -65,11 +65,11 @@ Desenvolva um método estático de saque de caixa eletrônico.
 
 Crie um método estático que recebe como argumento um valor em segundos, calcula e retorna ao invocador uma `string` formatada HH:MM:SS (horas:minutos:segundos).
 
-# Desafio 12
+# [Desafio 12](Desafio12)
 
 Dado um array de nomes, faça um programa que tenha como entrada uma expressão textual a ser pesquisada e retorne se o nome existe ou não no array.
 
-# Desafio 13
+# [Desafio 13](Desafio13)
 
 Dado um array de números, mostre quantos valores são pares, quantos são ímpares, quantos são positivos e quantos são negativos.
 
