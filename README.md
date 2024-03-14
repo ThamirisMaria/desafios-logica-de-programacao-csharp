@@ -1,7 +1,7 @@
 # Desafios Lógica de Programacao - C#
 Série de desafios para praticar lógica de programação com C#
 
-# Desafio 1
+# [Desafio 1](Desafio01)
 
 Escreva um algoritmo que receba como entrada três números que serão armazenados nas variáveis `valueOne`, `valueTwo` e `valueThree` respectivamente. Tendo esses valores, mostre-os na tela na ordem em que estão armazenados. Mostre também, as trocas, em que ao final `valueTwo` assuma o valor de `valueThree`, `valueThree` assuma o valor de `valueOne` e `valueOne` assuma o valor de `valueTwo`.
 
@@ -13,7 +13,7 @@ Faça um programa que armazene em duas variáveis distintas dois valores distint
 - Multiplicação
 - Divisão
 
-# Desafio 3
+# [Desafio 3](Desafio03)
 
 Uma imobiliária paga aos seus corretores um salário fixo por mês e uma porcentagem de comissão de acordo com o valor de vendas realizadas. Crie um sistema para calcular a soma do salário + a comissão recebida em relação às vendas. 
 
@@ -53,7 +53,7 @@ Realize as seguintes sequências de impressões:
 
 Crie um algoritmo que tem como entrada um número e imprime a sua tabuada do 1 ao 10.
 
-# Desafio 10
+# [Desafio 10](Desafio10)
 
 Desenvolva um método estático de saque de caixa eletrônico. 
 1. O usuário deve informar um valor desejado de saque como entrada, e esse valor deve ser passado para o método de saque.
