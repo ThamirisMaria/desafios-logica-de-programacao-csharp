@@ -5,8 +5,11 @@
  * 
  * Nota: Um jogo tem somente horas "em ponto" - Não é necessário trabalhar com minutos e segundos.
  */
-
 using Desafio05;
+using Helpers;
+
+TituloDoDesafio tituloDoDesafio = new("Duração do Jogo");
+tituloDoDesafio.MostrarTituloDoDesafio();
 
 Console.Write("Insira a hora de início do jogo: ");
 int horaInicial = int.Parse(Console.ReadLine()!);
